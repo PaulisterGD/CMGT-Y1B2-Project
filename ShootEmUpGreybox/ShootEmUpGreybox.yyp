@@ -1,5 +1,9 @@
 {
   "resources": [
+    {"id":{"name":"spr_CPU","path":"sprites/spr_CPU/spr_CPU.yy",},"order":1,},
+    {"id":{"name":"spr_Player","path":"sprites/spr_Player/spr_Player.yy",},"order":0,},
+    {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"order":2,},
+    {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
