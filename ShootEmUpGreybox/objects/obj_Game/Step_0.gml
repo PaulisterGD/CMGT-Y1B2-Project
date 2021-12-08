@@ -8,4 +8,4 @@ for (var i = 0; i < enemies; i++) {
 	if (!instance_find(obj_Enemy, i).dead) allDead = false;
 }
 
-if (allDead) game_restart();
+if (allDead) room_goto_next();
