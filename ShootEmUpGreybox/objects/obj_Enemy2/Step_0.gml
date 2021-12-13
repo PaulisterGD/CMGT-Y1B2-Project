@@ -6,5 +6,5 @@ if (dead){
 	speed = 0;
 } else {
 	direction = point_direction(x, y, x, room_height + 50);
-	speed = random_range(0.5, 2);
+	speed = random_range(2, 4);
 }
