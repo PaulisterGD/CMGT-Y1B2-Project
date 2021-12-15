@@ -9,6 +9,7 @@
     {"id":{"name":"objWalls","path":"objects/objWalls/objWalls.yy",},"order":5,},
     {"id":{"name":"spr_bg","path":"sprites/spr_bg/spr_bg.yy",},"order":3,},
     {"id":{"name":"spr_Player","path":"sprites/spr_Player/spr_Player.yy",},"order":0,},
+    {"id":{"name":"sprUFOPlayer","path":"sprites/sprUFOPlayer/sprUFOPlayer.yy",},"order":15,},
     {"id":{"name":"rmLevel3","path":"rooms/rmLevel3/rmLevel3.yy",},"order":2,},
     {"id":{"name":"rmLevel7","path":"rooms/rmLevel7/rmLevel7.yy",},"order":6,},
     {"id":{"name":"sprWasp","path":"sprites/sprWasp/sprWasp.yy",},"order":14,},
