@@ -1,7 +1,7 @@
 {
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.31,
+  "volume": 0.5,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sou_Bullet.wav",
-  "duration": 0.119116,
+  "soundFile": "sou_Impact.wav",
+  "duration": 0.286349,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sou_Bullet",
+  "name": "sou_Impact",
   "tags": [],
   "resourceType": "GMSound",
 }

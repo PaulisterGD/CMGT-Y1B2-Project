@@ -1,6 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-spd = 5;
-cdValue = 5;
-cd = 0;
+move_wrap(true, true, sprite_height/2);
