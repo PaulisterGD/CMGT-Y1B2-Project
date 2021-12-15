@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_CPU",
-    "path": "sprites/spr_CPU/spr_CPU.yy",
+    "name": "sprWasp",
+    "path": "sprites/sprWasp/sprWasp.yy",
   },
   "solid": false,
   "visible": true,

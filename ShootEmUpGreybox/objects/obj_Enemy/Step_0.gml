@@ -8,9 +8,9 @@ if (dead){
 	direction = point_direction(x, y, obj_Player.x, obj_Player.y);
 	speed = random_range(0.5, 2);
 	if (direction > 90 && direction < 270) {
-		image_xscale = -1 * (abs(sprite_width) / sprite_get_width(spr_CPU));
+		image_xscale = -1 * (abs(sprite_width) / sprite_get_width(sprWasp));
 	} else {
-		image_xscale = 1 * (sprite_width / sprite_get_width(spr_CPU));
+		image_xscale = 1 * (sprite_width / sprite_get_width(sprWasp));
 	}
 }
 
