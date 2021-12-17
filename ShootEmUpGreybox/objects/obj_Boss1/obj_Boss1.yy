@@ -32,7 +32,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objBoss",
+  "name": "obj_Boss1",
   "tags": [],
   "resourceType": "GMObject",
 }

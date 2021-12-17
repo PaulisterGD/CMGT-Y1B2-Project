@@ -3,7 +3,7 @@
 
 var enemies = instance_number(obj_Enemy);
 var enemies2 = instance_number(obj_Enemy2);
-var enemiesBoss = instance_number(objBoss);
+var enemiesBoss = instance_number(obj_Boss1);
 var allDead = true;
 
 for (var i = 0; i < enemies; i++) {
@@ -15,7 +15,7 @@ for (var j = 0; j < enemies2; j++) {
 }
 
 for (var k = 0; k < enemiesBoss; k++) {
-	if (!instance_find(objBoss, k).dead) allDead = false;
+	if (!instance_find(obj_Boss1, k).dead) allDead = false;
 }
 
 if (allDead) room_goto_next();

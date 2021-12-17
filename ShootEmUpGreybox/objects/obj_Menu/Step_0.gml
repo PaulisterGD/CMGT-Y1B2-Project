@@ -4,7 +4,7 @@
 var up, down, accept, back;
 
 up	   = keyboard_check_pressed(ord("W")) or gamepad_button_check_pressed(0, gp_padu);
-down   = keyboard_check_pressed(ord("D")) or gamepad_button_check_pressed(0, gp_padd);
+down   = keyboard_check_pressed(ord("S")) or gamepad_button_check_pressed(0, gp_padd);
 accept = keyboard_check_pressed(ord("E")) or gamepad_button_check_pressed(0, gp_face1);
 back   = keyboard_check_pressed(ord("F")) or gamepad_button_check_pressed(0, gp_face2);
 
