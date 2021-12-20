@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"spr_EnemyBullet","path":"sprites/spr_EnemyBullet/spr_EnemyBullet.yy",},"order":22,},
     {"id":{"name":"spr_Map","path":"sprites/spr_Map/spr_Map.yy",},"order":6,},
     {"id":{"name":"spr_CPU","path":"sprites/spr_CPU/spr_CPU.yy",},"order":1,},
     {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},"order":2,},
@@ -32,6 +33,7 @@
     {"id":{"name":"sou_Impact","path":"sounds/sou_Impact/sou_Impact.yy",},"order":4,},
     {"id":{"name":"sprYouWin","path":"sprites/sprYouWin/sprYouWin.yy",},"order":12,},
     {"id":{"name":"obj_Game","path":"objects/obj_Game/obj_Game.yy",},"order":7,},
+    {"id":{"name":"obj_EnemyBullet","path":"objects/obj_EnemyBullet/obj_EnemyBullet.yy",},"order":11,},
     {"id":{"name":"sprHealthbar_bg","path":"sprites/sprHealthbar_bg/sprHealthbar_bg.yy",},"order":21,},
     {"id":{"name":"sprLevel1","path":"sprites/sprLevel1/sprLevel1.yy",},"order":7,},
     {"id":{"name":"spr_Gun","path":"sprites/spr_Gun/spr_Gun.yy",},"order":4,},
@@ -39,6 +41,7 @@
     {"id":{"name":"rmLevel2","path":"rooms/rmLevel2/rmLevel2.yy",},"order":1,},
     {"id":{"name":"sprBoss","path":"sprites/sprBoss/sprBoss.yy",},"order":13,},
     {"id":{"name":"sprMenuBg","path":"sprites/sprMenuBg/sprMenuBg.yy",},"order":15,},
+    {"id":{"name":"BulletScripts","path":"scripts/BulletScripts/BulletScripts.yy",},"order":0,},
     {"id":{"name":"fon_WorkSans","path":"fonts/fon_WorkSans/fon_WorkSans.yy",},"order":0,},
     {"id":{"name":"pat_HoneyCombR2L","path":"paths/pat_HoneyCombR2L/pat_HoneyCombR2L.yy",},"order":2,},
     {"id":{"name":"obj_Gamelvl","path":"objects/obj_Gamelvl/obj_Gamelvl.yy",},"order":1,},
@@ -46,7 +49,7 @@
     {"id":{"name":"obj_Bullet","path":"objects/obj_Bullet/obj_Bullet.yy",},"order":0,},
     {"id":{"name":"pat_HoneyCombT2B","path":"paths/pat_HoneyCombT2B/pat_HoneyCombT2B.yy",},"order":3,},
     {"id":{"name":"obj_Gun","path":"objects/obj_Gun/obj_Gun.yy",},"order":4,},
-    {"id":{"name":"pat_BeeBossNeutralPath","path":"paths/pat_BeeBossNeutralPath/pat_BeeBossNeutralPath.yy",},"order":0,},
+    {"id":{"name":"pat_BeeBossFigureEight","path":"paths/pat_BeeBossFigureEight/pat_BeeBossFigureEight.yy",},"order":0,},
     {"id":{"name":"sprLevel3","path":"sprites/sprLevel3/sprLevel3.yy",},"order":10,},
     {"id":{"name":"obj_Enemy","path":"objects/obj_Enemy/obj_Enemy.yy",},"order":3,},
     {"id":{"name":"pat_HoneyCombL2R","path":"paths/pat_HoneyCombL2R/pat_HoneyCombL2R.yy",},"order":1,},
@@ -100,7 +103,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.7.606",
+    "IDEVersion": "2.3.7.603",
   },
   "resourceVersion": "1.4",
   "name": "ShootEmUpGreybox",

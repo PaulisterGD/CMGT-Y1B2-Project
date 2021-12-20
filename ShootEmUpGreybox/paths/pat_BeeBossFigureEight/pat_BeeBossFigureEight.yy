@@ -16,7 +16,7 @@
     "path": "folders/Paths.yy",
   },
   "resourceVersion": "1.0",
-  "name": "pat_BeeBossNeutralPath",
+  "name": "pat_BeeBossFigureEight",
   "tags": [],
   "resourceType": "GMPath",
 }

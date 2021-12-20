@@ -1,15 +1,49 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-cd--;
+//var playerDir = point_direction(x, y, obj_Player.x, obj_Player.y);
+switch(currentState){
+	case enemyStates.idle:
+		if (stateTimer == 0) {currentState = enemyStates.pick;}
+		break;
+		
+	case enemyStates.pick:
+		currentState = choose(enemyStates.dodge, enemyStates.spray, enemyStates.honeycomb);
+		stateTimer = timerData[currentState];
+		bulletCount = 100;
+		break;
+	
+	case enemyStates.spray:
+		bulletCount--;
+		createBullet(x, y, irandom(360), 4);
+		break;
+		
+	case enemyStates.honeycomb:
+		honeycombSpawn = irandom(2);
+		if (stateTimer <= 0 && bulletCount > 0){
+			stateTimer = timerData[currentState];
+			bulletCount -= 2;
+			createHoneycomb(honeycombSpawn);
+		}
+		break;
+		
+	case enemyStates.dodge:
+		if(stateTimer <= 0 && bulletCount > 0) {
+			stateTimer = timerData[currentState];
+			bulletCount -= 100;
+			path_start(pat_BeeBossFigureEight, 8, path_action_stop, 0);
+		}
+		break;
+}
 
-if (cd <= 0 && keyboard_check(vk_space)) {
-	cd = cdValue;
-	state = irandom(2);
-	if (state == 0) { instance_create_layer(-1, irandom(768), "Enemies", obj_Honeycomb); } 
-	else if (state == 1) { instance_create_layer(1367, irandom(768), "Enemies", obj_Honeycomb);	} 
-	else if (state == 2) { instance_create_layer(irandom(1366), -1, "Enemies", obj_Honeycomb); } 
-	else {}
+if (stateTimer > 0){
+	stateTimer--;
+}
+
+if (bulletCount == 0){
+	bulletCount = -1;
+	currentState = enemyStates.idle;
+	stateTimer = timerData[currentState];
 }
 
 
