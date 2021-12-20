@@ -5,16 +5,13 @@ cd = room_speed;
 cdValue = cd;
 
 dead = false;
-hp = 100; //boss health will be higher
-maxHp = hp;
+hp = 50; //health
+maxHp = hp; //max health is the current health, which is max
 state = irandom(2);
 
-//Nicolo
-healthbar_width = 100;
-healthbar_height = 12;
-healthbar_x = (768/2) - (healthbar_width/2);
-healthbar_y = ystart - 100;
-
-
+healthbar_width = 105;
+healthbar_height = 7;
+healthbar_x = (1366/2) - (healthbar_width/2);
+healthbar_y = ystart - 30;
 
 path_start(pat_BeeBossNeutralPath, 8, path_action_restart, 0);
