@@ -35,6 +35,7 @@
     {"id":{"name":"obj_Game","path":"objects/obj_Game/obj_Game.yy",},"order":7,},
     {"id":{"name":"obj_EnemyBullet","path":"objects/obj_EnemyBullet/obj_EnemyBullet.yy",},"order":11,},
     {"id":{"name":"sprHealthbar_bg","path":"sprites/sprHealthbar_bg/sprHealthbar_bg.yy",},"order":21,},
+    {"id":{"name":"fon_text","path":"fonts/fon_text/fon_text.yy",},"order":1,},
     {"id":{"name":"sprLevel1","path":"sprites/sprLevel1/sprLevel1.yy",},"order":7,},
     {"id":{"name":"spr_Gun","path":"sprites/spr_Gun/spr_Gun.yy",},"order":4,},
     {"id":{"name":"sprLevel2","path":"sprites/sprLevel2/sprLevel2.yy",},"order":8,},
@@ -103,7 +104,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.7.603",
+    "IDEVersion": "2.3.7.606",
   },
   "resourceVersion": "1.4",
   "name": "ShootEmUpGreybox",

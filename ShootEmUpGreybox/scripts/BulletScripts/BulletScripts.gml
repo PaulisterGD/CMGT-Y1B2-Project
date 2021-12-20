@@ -12,8 +12,7 @@ function createBullet(xx, yy, dir, spd){
 	}
 }
 
-function createHoneycomb(dirPick){
-	if (dirPick == 0) { instance_create_layer(-1, irandom(768), "Enemies", obj_Honeycomb); } 
-	else if (dirPick == 1) { instance_create_layer(1367, irandom(768), "Enemies", obj_Honeycomb); } 
-	else if (dirPick == 2) { instance_create_layer(irandom(1366), -1, "Enemies", obj_Honeycomb); } 
+function createHoneycomb(){
+	instance_create_layer(irandom(1366), -1, "Enemies", obj_Honeycomb);
 }
+
