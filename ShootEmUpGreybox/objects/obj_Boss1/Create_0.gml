@@ -31,3 +31,4 @@ healthbar_height = 7;
 healthbar_x = (1366/2) - (healthbar_width/2);
 healthbar_y = ystart - 30;
 
+flash = 0;
