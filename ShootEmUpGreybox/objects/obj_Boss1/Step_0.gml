@@ -19,11 +19,11 @@ switch(currentState){
 		break;
 		
 	case enemyStates.honeycomb:
-		honeycombSpawn = irandom(2);
+		//honeycombSpawn = irandom(2);
 		if (stateTimer <= 0 && bulletCount > 0){
 			stateTimer = timerData[currentState];
 			bulletCount -= 2;
-			createHoneycomb(honeycombSpawn);
+			createHoneycomb();
 		}
 		break;
 		
