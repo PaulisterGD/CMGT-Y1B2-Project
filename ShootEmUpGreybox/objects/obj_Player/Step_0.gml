@@ -1,6 +1,11 @@
 /// @description Paul
 // You can write your code in this editor
 
+//Movement clamp
+
+x=clamp(x, sprite_width/2, room_width - (sprite_width/2));
+y=clamp(y, sprite_height/2, room_height - (sprite_height/2));
+
 //Movement calculator
 var xMove = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var yMove = keyboard_check(ord("S")) - keyboard_check(ord("W"));
