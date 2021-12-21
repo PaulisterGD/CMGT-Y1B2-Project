@@ -9,5 +9,4 @@ camera_set_view_pos(view_camera[0], room_width/2 - 682, room_height/2 - 384);
 //SCORE UI - NICOLO
 
 global.score = 0;
-
-draw_set_font(fon_text);
+global.life = 3;
