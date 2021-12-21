@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Paul
 // You can write your code in this editor
 
 var enemies = instance_number(obj_Enemy);
@@ -18,4 +18,12 @@ for (var k = 0; k < enemiesBoss; k++) {
 	if (!instance_find(obj_Boss1, k).dead) allDead = false;
 }
 
-if (allDead) room_goto_next();
+if (allDead) {
+	switch (room){
+		case rmLevel1: room_goto(rmLevel5);	break;
+		case rmLevel2: room_goto(rmLevel3); break;
+		case rmLevel3: room_goto(rmLevel4); break;
+		case rmLevel4: room_goto(rmLevel5); break;
+	}
+}
+		
