@@ -11,4 +11,3 @@ if (hp <= 0) {
 	dead = true;
 	instance_destroy(self);
 }
-
