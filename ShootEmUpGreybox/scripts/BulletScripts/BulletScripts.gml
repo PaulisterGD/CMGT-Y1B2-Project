@@ -10,7 +10,7 @@ function BulletScripts(){
 //BULLET CREATION FOR BOSS 1 SPRAY ATTACK - PAUL
 
 function createBullet(xx, yy, dir, spd){
-	var bullet = instance_create_layer(xx, yy, "Instances", obj_EnemyBullet);
+	var bullet = instance_create_layer(xx, yy, "bullets", obj_EnemyBullet);
 	with (bullet) {
 		direction = dir;
 		speed = spd;
@@ -20,6 +20,6 @@ function createBullet(xx, yy, dir, spd){
 //HONEYCOMB ATTACK GENERATOR FOR BOSS 1 - PAUL
 
 function createHoneycomb(){
-	instance_create_layer(irandom(1366), -1, "Enemies", obj_Honeycomb);
+	instance_create_layer(irandom(1366), -1, "bullets", obj_Honeycomb);
 }
 
