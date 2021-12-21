@@ -48,6 +48,7 @@
     {"id":{"name":"obj_Gamelvl","path":"objects/obj_Gamelvl/obj_Gamelvl.yy",},"order":1,},
     {"id":{"name":"obj_Menu","path":"objects/obj_Menu/obj_Menu.yy",},"order":9,},
     {"id":{"name":"obj_Bullet","path":"objects/obj_Bullet/obj_Bullet.yy",},"order":0,},
+    {"id":{"name":"beehivebig","path":"sprites/beehivebig/beehivebig.yy",},"order":23,},
     {"id":{"name":"pat_HoneyCombT2B","path":"paths/pat_HoneyCombT2B/pat_HoneyCombT2B.yy",},"order":3,},
     {"id":{"name":"obj_Gun","path":"objects/obj_Gun/obj_Gun.yy",},"order":4,},
     {"id":{"name":"pat_BeeBossFigureEight","path":"paths/pat_BeeBossFigureEight/pat_BeeBossFigureEight.yy",},"order":0,},
