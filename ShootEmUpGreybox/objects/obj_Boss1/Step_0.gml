@@ -36,6 +36,7 @@ switch(currentState){
 		break;
 }
 
+
 if (stateTimer > 0){
 	stateTimer--;
 }
