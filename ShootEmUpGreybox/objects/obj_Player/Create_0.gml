@@ -1,6 +1,8 @@
-/// @description Insert description here
+/// @description Paul
 // You can write your code in this editor
 
-spd = 5;
+image_speed = 0;
+
+spd = 8;
 cdValue = 5;
 cd = 0;
