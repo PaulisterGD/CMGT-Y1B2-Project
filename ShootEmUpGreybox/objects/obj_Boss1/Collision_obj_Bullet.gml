@@ -8,6 +8,8 @@ instance_destroy(other);
 
 if (hp <= 0) {
 	audio_play_sound(sou_EnemyDeath, 1, false);
+	global.score += 10000;
+	global.score += (2000 * global.life);
 	dead = true;
 	instance_destroy(self);
 }
